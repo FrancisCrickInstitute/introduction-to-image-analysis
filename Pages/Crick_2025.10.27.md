@@ -238,7 +238,7 @@ Please note that the building entrance is on Midland Road.
 
 # Additional Resources
 
-See [here](Pages/Additional-Resources.md) for supplemental workshop material.
+See [here](./Additional-Resources.md) for supplemental workshop material.
 
 <p align="center">
 	<img width="32%" src="./../Resources/RMS_Logo.jpg" alt="RMS Logo"> <img width="10%" src="./../Resources/CRICK_Logo.png" alt="Crick Logo">
