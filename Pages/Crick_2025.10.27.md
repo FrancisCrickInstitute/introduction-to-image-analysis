@@ -1,6 +1,6 @@
 ### 27th & 28th October 2025, Francis Crick Institute
 
-<img width="100%" src="./Resources/RMS-DAIM_Workshop_Banner_Image.png" alt="Banner Image">
+<img width="100%" src="./../Resources/RMS-DAIM_Workshop_Banner_Image.png" alt="Banner Image">
 
 # Overview
 
