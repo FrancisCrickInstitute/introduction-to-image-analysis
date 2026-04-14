@@ -1,22 +1,21 @@
-### 27th & 28th October 2025, Francis Crick Institute
+### 3rd - 5th June 2026, Francis Crick Institute
 
 <img width="100%" src="./Resources/RMS-DAIM_Workshop_Banner_Image.png" alt="Banner Image">
 
 # Overview
 
-In this workshop, we will bridge the gap between advanced microscopy data generation and the computational skills required for its analysis. By leveraging open-source tools like [FIJI](https://fiji.sc) and [Jupyter](https://jupyter.org/), participants will learn to automate image analysis, enhancing the precision, efficiency, and reproducibility of their research. This two-day event, led by experienced core facility staff from the Francis Crick Institute, offers a practical approach to mastering quantitative analysis and workflow automation, essential for advancing research across multiple domains.
+In this workshop, we will bridge the gap between advanced microscopy data generation and the computational skills required for its analysis. By leveraging open-source tools like [FIJI](https://fiji.sc), [Jupyter notebooks](https://jupyter.org/) and [napari](https://napari.org), participants will learn to automate image analysis, enhancing the precision, efficiency, and reproducibility of their research. This three-day event, led by experienced core facility staff from the Francis Crick Institute and the University of Cardiff, offers a practical approach to mastering quantitative analysis and workflow automation, essential for advancing research across multiple domains.
 
 # Registration
 
->Registration for this workshop has now closed.
+This workshop is open to internal attendees only. [Registration is currently open on Workday](https://wd3.myworkday.com/crick/learning/offering/ae0d34f84e1c1001909af160a8860000?type=7c48590b5257100009485b7a25ae0068).
 
 # Instructors
+* [Dave Barry, Francis Crick Institute](https://www.crick.ac.uk/research/find-a-researcher/david-barry)
+* [Deniz Bekat](https://www.crick.ac.uk/research/find-a-researcher/deniz-bekat)
+* [Martin Jones, Francis Crick Institute](https://www.crick.ac.uk/research/find-a-researcher/martin-jones)
 * [Sara Salgueiro Torres, Francis Crick Institute](https://www.crick.ac.uk/research/find-a-researcher/sara-salgueiro-torres)
 * [Stefania Marcotti, Francis Crick Institute](https://www.linkedin.com/in/stefania-marcotti/)
-* [Martin Jones, Francis Crick Institute](https://www.crick.ac.uk/research/find-a-researcher/martin-jones)
-* [Cameron Shand, Francis Crick Institute](https://www.linkedin.com/in/cameronshand/)
-* [Kimberly Meechan, UCL](https://profiles.ucl.ac.uk/96751-kimberly-meechan)
-* [Dave Barry, Francis Crick Institute](https://www.crick.ac.uk/research/find-a-researcher/david-barry)
 
 # Preparation
 
@@ -27,19 +26,15 @@ In this workshop, we will bridge the gap between advanced microscopy data genera
 5. You will be assigned to a specific group, with whom you will be sitting - your group number will be displayed in the training room.
 6. **PLEASE CONTACT US BEFORE THE WORKSHOP IF YOU ENCOUNTER ANY DIFFICULTIES WITH ANY OF THE ABOVE.**
 
-# Slides
-
-All the presentation slides for the workshop are accessible [here](https://drive.google.com/drive/folders/1gtV-mtRj8czYIRsasQ1W81S2SRoV58B3?usp=sharing).
-
 # Program
 
 <table style="width:100%">
 	<tbody>
 		<tr>
-			<th colspan=3>Monday, October 27th 2025</th>
+			<th colspan=3>Wednesday, June 3rd 2026</th>
 		</tr>
 		<tr>
-			<td>09:30 - 11:00</td>
+			<td>09:00 - 10:30</td>
 			<td>Session 1</td>
 			<td><p>Introduction & Installations</p></td>
 		</tr>
@@ -47,7 +42,7 @@ All the presentation slides for the workshop are accessible [here](https://drive
 			<td></td>
 			<td colspan=3>
 				<ul>
-					<li>Dave Barry</li>
+					<li>Sara Salgueiro Torres</li>
 					<ul><li>Who are you and why are you here?</li></ul>
 					<li>Stefania Marcotti</li>
 					<ul><li>Creating Python environments</li></ul>
@@ -61,11 +56,11 @@ All the presentation slides for the workshop are accessible [here](https://drive
 			</td>
 		</tr>
 		<tr>
-			<td>11:00 - 11:15</td>
+			<td>10:30 - 10:45</td>
 			<td colspan=2>Coffee Break</td>
 		</tr>
 		<tr>
-			<td>11:15 - 13:00</td>
+			<td>10:45 - 12:15</td>
 			<td>Session 2</td>
 			<td><p>Image Pre-Processing, Segmentation & Analysis</p></td>
 		</tr>
@@ -78,38 +73,19 @@ All the presentation slides for the workshop are accessible [here](https://drive
 						<li>Basic segmentation using thresholding</li>
 						<li>Use of filtering to suppress noise</li>
 						<li>Obtaining numbers from images</li>
+						<li>Counting and quantifying morphology of objects</li>
+						<li>Quantifying fluorescence intensities</li>
 					</ul>
 				</ul>
 			</td>
 		</tr>
 		<tr>
-			<td>13:00 - 14:00</td>
+			<td>12:15 - 13:15</td>
 			<td colspan=2>Lunch</td>
 		</tr>
 		<tr>
-			<td>14:00 - 16:00</td> 
+			<td>13:15 - 14:45</td> 
 			<td>Session 3</td>
-			<td><p>Assembling Pipelines and Interpreting Results</p></td>
-		</tr>
-		<tr>
-			<td></td>
-			<td colspan=3>
-			<ul>
-				<li>Sara Salgueiro Torres & Dave Barry</li>
-				<ul>
-					<li>Counting and quantifying morphology of objects</li>
-					<li>Quantifying fluorescence intensities</li>
-				</ul>
-			</ul>
-			</td>
-		</tr>
-		<tr>
-			<td>16:00 - 16:15</td>
-			<td colspan=2>Coffee Break</td>
-		</tr>
-		<tr>
-			<td>16:15 - 17:45</td> 
-			<td>Session 4</td>
 			<td><p>Extending Analyses to Three Dimensions</p></td>
 		</tr>
 		<tr>
@@ -125,24 +101,42 @@ All the presentation slides for the workshop are accessible [here](https://drive
 			</td>
 		</tr>
 		<tr>
-			<td>17:45</td>
-			<td colspan=2>Dinner: The Parcel Yard, King's Cross Station, London N1C 4AH</td>
+			<td>14:45 - 15:00</td>
+			<td colspan=2>Coffee Break</td>
 		</tr>
 		<tr>
-			<th colspan=3>Tuesday, October 28th 2025</th>
+			<td>15:00 - 17:00</td> 
+			<td>Session 4</td>
+			<td><p>Getting Started with Automating Analysis</p></td>
 		</tr>
 		<tr>
-			<td>09:30 - 10:30</td>
+			<td></td>
+			<td colspan=3>
+			<ul>
+				<li>Sara Salgueiro Torres</li>
+				<ul>
+					<li>Fiji macro language</li>
+					<li>Automating batch analyses</li>
+				</ul>
+			</ul>
+			</td>
+		</tr>
+		<tr>
+			<th colspan=3>Thursday, June 4th 2026</th>
+		</tr>
+		<tr>
+			<td>09:00 - 10:30</td>
 			<td>Session 5</td>
-			<td><p>Using Jupyter Notebooks for Reproducible Analysis - Part 1</p></td>
+			<td><p>Napari for Image Visualisation</p></td>
 		</tr>
 		<tr>
 			<td></td>
 			<td colspan=3>
 				<ul>
-				<li>Stefania Marcotti</li>
+				<li>Martin Jones</li>
 				<ul>
-					<li>Variables and arrays</li>
+					<li>Napari GUI and plugins</li>
+					<li>Visualising complex image datasets using napari</li>
 				</ul>
 				</ul>
 			</td>
@@ -152,9 +146,9 @@ All the presentation slides for the workshop are accessible [here](https://drive
 			<td colspan=2>Coffee Break</td>
 		</tr>
 		<tr>
-			<td>10:45 - 12:30</td>
+			<td>10:45 - 12:15</td>
 			<td>Session 6</td>
-			<td><p>Using Jupyter Notebooks for Reproducible Analysis - Part 2</p></td>
+			<td><p>Improving Reproducibility</p></td>
 		</tr>
 		<tr>
 			<td></td>
@@ -162,47 +156,104 @@ All the presentation slides for the workshop are accessible [here](https://drive
 				<ul>
 				<li>Stefania Marcotti</li>
 				<ul>
-					<li>Quantify morphology of objects in a 2D image with Jupyter</li>
+					<li>Version control using GitHub</li>
+					<li>Data repositories</li>
+					<li>Introduction to Jupyter notebooks</li>
+					<li>Scripting foundational concepts</li>
 				</ul>
 				</ul>
 			</td>
 		</tr>
 		<tr>
-			<td>12:30 - 13:30</td>
+			<td>12:15 - 13:15</td>
 			<td colspan=2>Lunch</td>
 		</tr>
 		<tr>
-			<td>13:30 - 15:30</td>
+			<td>13:15 - 14:45</td>
 			<td>Session 7</td>
+			<td><p>Using Jupyter Notebooks for Reproducible Analysis</p></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td colspan=3>
+				<ul>
+				<li>Deniz Bekat</li>
+				<ul>
+					<li>Quantifying morphology of objects in a 2D image</li>
+				</ul>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td>14:45 - 15:00</td>
+			<td colspan=2>Coffee Break</td>
+		</tr>
+		<tr>
+			<td>15:00 - 17:00</td>
+			<td>Session 8</td>
 			<td><p>Introduction to Batch Processing with Jupyter Notebooks</p></td>
 		</tr>
 		<tr>
 			<td></td>
 			<td colspan=3>
 				<ul>
-				<li>Stefania Marcotti</li>
+				<li>Deniz Bekat & Stefania Marcotti</li>
 				<ul>
-					<li>Practical Application: batch processing with Jupyter</li>
+					<li>Practical application: analysing all the images in a folder</li>
 				</ul>
 				</ul>
 			</td>
 		</tr>
 		<tr>
-			<td>15:30 - 15:45</td>
-			<td colspan=2>Coffee Break</td>
+			<tr>
+			<th colspan=3>Friday, June 5th 2026</th>
 		</tr>
 		<tr>
-			<td>15:45 - 16:45</td>
-			<td>Session 8</td>
-			<td><p>Introduction to napari, wrap-up, and Q&A</p></td>
+			<td>09:00 - 10:30</td>
+			<td>Session 9</td>
+			<td><p>Introduction to Machine Learning for Image Analysis - Part 1</p></td>
 		</tr>
 		<tr>
 			<td></td>
 			<td colspan=3>
 				<ul>
-				<li>Martin Jones & Cameron Shand</li>
+				<li>Dave Barry</li>
+				<ul>
+					<li>Traditional vs. machine learning approaches</li>
+					<li>Considerations and common pitfalls</li>
+					<li>Available open-source tools</li>
+				</ul>
 				</ul>
 			</td>
+		</tr>
+		<tr>
+			<td>10:30 - 10:45</td>
+			<td colspan=2>Coffee Break</td>
+		</tr>
+		<tr>
+			<td>10:45 - 12:15</td>
+			<td>Session 10</td>
+			<td><p>Introduction to Machine Learning for Image Analysis - Part 2</p></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td colspan=3>
+				<ul>
+				<li>Dave Barry</li>
+				<ul>
+					<li>Practical application: using machine learning for segmentation</li>
+				</ul>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td>12:15 - 13:15</td>
+			<td colspan=2>Lunch</td>
+		</tr>
+		<tr>
+			<td>13:15 - 14:45</td>
+			<td>Session 11</td>
+			<td><p>Q&A and wrap-up</p></td>
 		</tr>
 	</tbody>
 </table>
@@ -225,6 +276,7 @@ Please note that the building entrance is on Midland Road.
 | 8 / 9th April 2025 | University of Galway, Ireland | [Click here](Pages/Galway_2025.04.08.md)|
 | 6 & 20th June 2025 | Francis Crick Institute | [Click here](Pages/Crick_2025.06.06.md)|
 | 18 / 19th August 2025 | Francis Crick Institute | [Click here](Pages/Crick_2025.08.18.md)|
+| 27 / 28th October 2025 | Francis Crick Institute | [Click here](Pages/Crick_2025.10.27.md)|
 
 # FAQ
 
