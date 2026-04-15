@@ -273,7 +273,7 @@ The workshop will take place in the Francis Crick Institute, London, UK.
 | 8 / 9th April 2025 | University of Galway, Ireland | [Click here](./Pages/Galway_2025.04.08.md)|
 | 6 & 20th June 2025 | Francis Crick Institute | [Click here](./Pages/Crick_2025.06.06.md)|
 | 18 / 19th August 2025 | Francis Crick Institute | [Click here](./Pages/Crick_2025.08.18.md)|
-| 27 / 28th October 2025 | Francis Crick Institute | [Click here]./(Pages/Crick_2025.10.27.md)|
+| 27 / 28th October 2025 | Francis Crick Institute | [Click here](./Pages/Crick_2025.10.27.md)|
 
 # FAQ
 
