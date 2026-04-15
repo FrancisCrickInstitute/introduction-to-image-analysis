@@ -206,7 +206,6 @@ This workshop is open to internal attendees only. [Registration is currently ope
 			</td>
 		</tr>
 		<tr>
-			<tr>
 			<th colspan=3>Friday, June 5th 2026</th>
 		</tr>
 		<tr>
