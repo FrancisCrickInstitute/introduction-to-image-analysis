@@ -256,7 +256,6 @@ This workshop is open to internal attendees only. [Registration is currently ope
 			<td>Session 11</td>
 			<td><p>Q&A and wrap-up</p></td>
 		</tr>
-	</tbody>
-</table>
+
 
 
