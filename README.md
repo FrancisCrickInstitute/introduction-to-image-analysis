@@ -267,13 +267,13 @@ The workshop will take place in the Francis Crick Institute, London, UK.
 
 | Date | Venue | Content |
 | --- | --- | --- |
-| 8 / 9th April 2024 | King's College London | [Click here](Pages/KCL_2024.04.08.md)|
-| 24 / 25th April 2024 | Royal College of Surgeons in Ireland | [Click here](Pages/RCSI_2024.04.24.md)|
-| 21 / 22nd October 2024 | Francis Crick Institute | [Click here](Pages/Crick_2024.10.21.md)|
-| 8 / 9th April 2025 | University of Galway, Ireland | [Click here](Pages/Galway_2025.04.08.md)|
-| 6 & 20th June 2025 | Francis Crick Institute | [Click here](Pages/Crick_2025.06.06.md)|
-| 18 / 19th August 2025 | Francis Crick Institute | [Click here](Pages/Crick_2025.08.18.md)|
-| 27 / 28th October 2025 | Francis Crick Institute | [Click here](Pages/Crick_2025.10.27.md)|
+| 8 / 9th April 2024 | King's College London | [Click here](./Pages/KCL_2024.04.08.md)|
+| 24 / 25th April 2024 | Royal College of Surgeons in Ireland | [Click here](./Pages/RCSI_2024.04.24.md)|
+| 21 / 22nd October 2024 | Francis Crick Institute | [Click here](./Pages/Crick_2024.10.21.md)|
+| 8 / 9th April 2025 | University of Galway, Ireland | [Click here](./Pages/Galway_2025.04.08.md)|
+| 6 & 20th June 2025 | Francis Crick Institute | [Click here](./Pages/Crick_2025.06.06.md)|
+| 18 / 19th August 2025 | Francis Crick Institute | [Click here](./Pages/Crick_2025.08.18.md)|
+| 27 / 28th October 2025 | Francis Crick Institute | [Click here]./(Pages/Crick_2025.10.27.md)|
 
 # FAQ
 
@@ -283,7 +283,7 @@ The workshop will take place in the Francis Crick Institute, London, UK.
 
 2. **Do I need to have any experience of coding?**
 
-    While some basic knowledge would be helpful, it's not essential and even if you have no knowledge of python, Jupyter notebooks or FIJI scripts/macros, you should still apply.
+    While some basic knowledge would be helpful, it's not essential and even if you have no knowledge of python, Jupyter notebooks or FIJI scripts/macros, you should still register.
 
 <p align="center">
 	<img width="10%" src="./Resources/CRICK_Logo.png" alt="Crick Logo">
