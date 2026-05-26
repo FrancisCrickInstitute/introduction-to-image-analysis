@@ -34,7 +34,7 @@ This workshop is open to internal attendees only. [Registration is currently ope
 			<th colspan=3>Wednesday, June 3rd 2026</th>
 		</tr>
 		<tr>
-			<td>09:00 - 10:30</td>
+			<td>09:30 - 11:00</td>
 			<td>Session 1</td>
 			<td><p>Introduction & Installations</p></td>
 		</tr>
@@ -42,11 +42,11 @@ This workshop is open to internal attendees only. [Registration is currently ope
 			<td></td>
 			<td colspan=3>
 				<ul>
-					<li>Sara Salgueiro Torres</li>
+					<li>Dave Barry</li>
 					<ul><li>Who are you and why are you here?</li></ul>
 					<li>Stefania Marcotti</li>
 					<ul><li>Creating Python environments</li></ul>
-					<li>Sara Salgueiro Torres</li>
+					<li>Dave Barry and Sara Salgueiro Torres</li>
 					<ul>
 						<li>Why manual analysis is a bad idea</li>
 						<li>Embracing uncertainty</li>
@@ -56,11 +56,11 @@ This workshop is open to internal attendees only. [Registration is currently ope
 			</td>
 		</tr>
 		<tr>
-			<td>10:30 - 10:45</td>
+			<td>11:00 - 11:15</td>
 			<td colspan=2>Coffee Break</td>
 		</tr>
 		<tr>
-			<td>10:45 - 12:15</td>
+			<td>11:15 - 12:45</td>
 			<td>Session 2</td>
 			<td><p>Image Pre-Processing, Segmentation & Analysis</p></td>
 		</tr>
@@ -68,7 +68,7 @@ This workshop is open to internal attendees only. [Registration is currently ope
 			<td></td>
 			<td colspan=3>
 				<ul>
-					<li>Sara Salgueiro Torres</li>
+					<li>Dave Barry and Sara Salgueiro Torres</li>
 					<ul>
 						<li>Basic segmentation using thresholding</li>
 						<li>Use of filtering to suppress noise</li>
@@ -80,11 +80,11 @@ This workshop is open to internal attendees only. [Registration is currently ope
 			</td>
 		</tr>
 		<tr>
-			<td>12:15 - 13:15</td>
+			<td>12:45 - 13:45</td>
 			<td colspan=2>Lunch</td>
 		</tr>
 		<tr>
-			<td>13:15 - 14:45</td> 
+			<td>13:45 - 15:15</td> 
 			<td>Session 3</td>
 			<td><p>Extending Analyses to Three Dimensions</p></td>
 		</tr>
@@ -92,7 +92,7 @@ This workshop is open to internal attendees only. [Registration is currently ope
 			<td></td>
 			<td colspan=3>
 			<ul>
-				<li>Dave Barry</li>
+				<li>Stefania Marcotti and Sara Salgueiro Torres</li>
 				<ul>
 					<li>Counting and quantifying morphology of three-dimensional objects</li>
 					<li>Quantifying fluorescence intensities of three-dimensional objects</li>
@@ -101,11 +101,11 @@ This workshop is open to internal attendees only. [Registration is currently ope
 			</td>
 		</tr>
 		<tr>
-			<td>14:45 - 15:00</td>
+			<td>15:15-15:30</td>
 			<td colspan=2>Coffee Break</td>
 		</tr>
 		<tr>
-			<td>15:00 - 17:00</td> 
+			<td>15:30 - 17:00</td> 
 			<td>Session 4</td>
 			<td><p>Getting Started with Automating Analysis</p></td>
 		</tr>
@@ -113,7 +113,7 @@ This workshop is open to internal attendees only. [Registration is currently ope
 			<td></td>
 			<td colspan=3>
 			<ul>
-				<li>Sara Salgueiro Torres</li>
+				<li>Stefania Marcotti and Sara Salgueiro Torres</li>
 				<ul>
 					<li>Fiji macro language</li>
 					<li>Automating batch analyses</li>
@@ -125,7 +125,7 @@ This workshop is open to internal attendees only. [Registration is currently ope
 			<th colspan=3>Thursday, June 4th 2026</th>
 		</tr>
 		<tr>
-			<td>09:00 - 10:30</td>
+			<td>09:30 - 11:00</td>
 			<td>Session 5</td>
 			<td><p>Napari for Image Visualisation</p></td>
 		</tr>
@@ -142,11 +142,11 @@ This workshop is open to internal attendees only. [Registration is currently ope
 			</td>
 		</tr>
 		<tr>
-			<td>10:30 - 10:45</td>
+			<td>11:00 - 11:15</td>
 			<td colspan=2>Coffee Break</td>
 		</tr>
 		<tr>
-			<td>10:45 - 12:15</td>
+			<td>11:15 - 12:45</td>
 			<td>Session 6</td>
 			<td><p>Improving Reproducibility</p></td>
 		</tr>
@@ -165,11 +165,11 @@ This workshop is open to internal attendees only. [Registration is currently ope
 			</td>
 		</tr>
 		<tr>
-			<td>12:15 - 13:15</td>
+			<td>12:45 - 13:45</td>
 			<td colspan=2>Lunch</td>
 		</tr>
 		<tr>
-			<td>13:15 - 14:45</td>
+			<td>13:45 - 15:15</td>
 			<td>Session 7</td>
 			<td><p>Using Jupyter Notebooks for Reproducible Analysis</p></td>
 		</tr>
@@ -185,11 +185,11 @@ This workshop is open to internal attendees only. [Registration is currently ope
 			</td>
 		</tr>
 		<tr>
-			<td>14:45 - 15:00</td>
+			<td>15:15 - 15:30</td>
 			<td colspan=2>Coffee Break</td>
 		</tr>
 		<tr>
-			<td>15:00 - 17:00</td>
+			<td>15:30 - 17:00</td>
 			<td>Session 8</td>
 			<td><p>Introduction to Batch Processing with Jupyter Notebooks</p></td>
 		</tr>
@@ -209,7 +209,7 @@ This workshop is open to internal attendees only. [Registration is currently ope
 			<th colspan=3>Friday, June 5th 2026</th>
 		</tr>
 		<tr>
-			<td>09:00 - 10:30</td>
+			<td>09:30 - 11:00</td>
 			<td>Session 9</td>
 			<td><p>Introduction to Machine Learning for Image Analysis - Part 1</p></td>
 		</tr>
@@ -227,11 +227,11 @@ This workshop is open to internal attendees only. [Registration is currently ope
 			</td>
 		</tr>
 		<tr>
-			<td>10:30 - 10:45</td>
+			<td>11:00 - 11:15</td>
 			<td colspan=2>Coffee Break</td>
 		</tr>
 		<tr>
-			<td>10:45 - 12:15</td>
+			<td>11:15 - 12:45</td>
 			<td>Session 10</td>
 			<td><p>Introduction to Machine Learning for Image Analysis - Part 2</p></td>
 		</tr>
@@ -247,11 +247,11 @@ This workshop is open to internal attendees only. [Registration is currently ope
 			</td>
 		</tr>
 		<tr>
-			<td>12:15 - 13:15</td>
+			<td>12:45 - 13:45</td>
 			<td colspan=2>Lunch</td>
 		</tr>
 		<tr>
-			<td>13:15 - 14:45</td>
+			<td>13:45 - 15:00</td>
 			<td>Session 11</td>
 			<td><p>Q&A and wrap-up</p></td>
 		</tr>
