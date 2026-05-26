@@ -101,7 +101,7 @@ This workshop is open to internal attendees only. [Registration is currently ope
 			</td>
 		</tr>
 		<tr>
-			<td>15:15-15:30</td>
+			<td>15:15 - 15:30</td>
 			<td colspan=2>Coffee Break</td>
 		</tr>
 		<tr>
@@ -251,7 +251,7 @@ This workshop is open to internal attendees only. [Registration is currently ope
 			<td colspan=2>Lunch</td>
 		</tr>
 		<tr>
-			<td>13:45 - 15:00</td>
+			<td>13:45 - 15:15</td>
 			<td>Session 11</td>
 			<td><p>Q&A and wrap-up</p></td>
 		</tr>
