@@ -42,7 +42,7 @@ This workshop is open to internal attendees only. [Registration is currently ope
 			<td></td>
 			<td colspan=3>
 				<ul>
-					<li>Dave Barry</li>
+					<li>Stefania Marcotti and Sara Salgueiro Torres</li>
 					<ul><li>Who are you and why are you here?</li></ul>
 					<li>Stefania Marcotti</li>
 					<ul><li>Creating Python environments</li></ul>
@@ -73,8 +73,6 @@ This workshop is open to internal attendees only. [Registration is currently ope
 						<li>Basic segmentation using thresholding</li>
 						<li>Use of filtering to suppress noise</li>
 						<li>Obtaining numbers from images</li>
-						<li>Counting and quantifying morphology of objects</li>
-						<li>Quantifying fluorescence intensities</li>
 					</ul>
 				</ul>
 			</td>
@@ -86,7 +84,7 @@ This workshop is open to internal attendees only. [Registration is currently ope
 		<tr>
 			<td>13:45 - 15:15</td> 
 			<td>Session 3</td>
-			<td><p>Extending Analyses to Three Dimensions</p></td>
+			<td><p>Assembling Pipelines and Interpreting Results</p></td>
 		</tr>
 		<tr>
 			<td></td>
@@ -94,8 +92,8 @@ This workshop is open to internal attendees only. [Registration is currently ope
 			<ul>
 				<li>Stefania Marcotti and Sara Salgueiro Torres</li>
 				<ul>
-					<li>Counting and quantifying morphology of three-dimensional objects</li>
-					<li>Quantifying fluorescence intensities of three-dimensional objects</li>
+					<li>Counting and quantifying morphology of objects</li>
+					<li>Quantifying fluorescence intensities</li>
 				</ul>
 			</ul>
 			</td>
@@ -107,7 +105,7 @@ This workshop is open to internal attendees only. [Registration is currently ope
 		<tr>
 			<td>15:30 - 17:00</td> 
 			<td>Session 4</td>
-			<td><p>Getting Started with Automating Analysis</p></td>
+			<td><p>Extending Analyses to Three Dimensions</p></td>
 		</tr>
 		<tr>
 			<td></td>
@@ -115,8 +113,7 @@ This workshop is open to internal attendees only. [Registration is currently ope
 			<ul>
 				<li>Stefania Marcotti and Sara Salgueiro Torres</li>
 				<ul>
-					<li>Fiji macro language</li>
-					<li>Automating batch analyses</li>
+					<li>Adding more dimensions: Segmenting and analysing three-dimensional objects with MorphoLibJ</li>
 				</ul>
 			</ul>
 			</td>
