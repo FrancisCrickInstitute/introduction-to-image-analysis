@@ -1,43 +1,40 @@
-### 18th - 20th May 2026, University of Cardiff, Wales
+### 3rd - 5th June 2026, Francis Crick Institute
 
 <img width="100%" src="./Resources/RMS-DAIM_Workshop_Banner_Image.png" alt="Banner Image">
 
 # Overview
 
-In this workshop, we will bridge the gap between advanced microscopy data generation and the computational skills required for its analysis. By leveraging open-source tools like [FIJI](https://fiji.sc), [Jupyter notebooks](https://jupyter.org/) and [napari](https://napari.org), participants will learn to automate image analysis, enhancing the precision, efficiency, and reproducibility of their research. This three-day event, led by experienced core facility staff from the Francis Crick Institute and the University of Cardiff, offers a practical approach to mastering quantitative analysis and workflow automation, essential for advancing research across multiple domains.
+In this workshop, we will bridge the gap between advanced microscopy data generation and the computational skills required for its analysis. By leveraging open-source tools like [FIJI](https://fiji.sc), [Jupyter notebooks](https://jupyter.org/) and [napari](https://napari.org), participants will learn to automate image analysis, enhancing the precision, efficiency, and reproducibility of their research. This three-day event, led by experienced core facility staff from the Francis Crick Institute, offers a practical approach to mastering quantitative analysis and workflow automation, essential for advancing research across multiple domains.
 
->Applications for this workshop have now closed.
+# Registration
+
+This workshop is open to internal attendees only. [Registration is currently open on Workday](https://wd3.myworkday.com/crick/learning/offering/ae0d34f84e1c1001909af160a8860000?type=7c48590b5257100009485b7a25ae0068).
 
 # Instructors
 * [Dave Barry, Francis Crick Institute](https://www.crick.ac.uk/research/find-a-researcher/david-barry)
+* [Deniz Bekat, Francis Crick Institute](https://www.crick.ac.uk/research/find-a-researcher/deniz-bekat)
 * [Martin Jones, Francis Crick Institute](https://www.crick.ac.uk/research/find-a-researcher/martin-jones)
-* [Stefania Marcotti, Francis Crick Institute](https://www.crick.ac.uk/research/find-a-researcher/stefania-marcotti)
 * [Sara Salgueiro Torres, Francis Crick Institute](https://www.crick.ac.uk/research/find-a-researcher/sara-salgueiro-torres)
-* [Tom Slater, University of Cardiff](https://profiles.cardiff.ac.uk/staff/slatert2)
+* [Stefania Marcotti, Francis Crick Institute](https://www.linkedin.com/in/stefania-marcotti/)
 
 # Preparation
 
 1. Please remember to bring your laptop (and charger).
-2. Please install the required software before the workshop - follow the installation instructions on [this page](Pages/Installation-Instructions.md).
-3. Download the workshop data by clicking on the link to the ZIP archive at the top of this page.
-4. You will be assigned to a specific group, with whom you will be sitting - your group number will be displayed in the training room.
-5. **PLEASE CONTACT US BEFORE THE WORKSHOP IF YOU ENCOUNTER ANY DIFFICULTIES WITH ANY OF THE ABOVE.**
+2. Ensure your laptop can connect to WiFi networks outside your host institute ([eduroam](https://eduroam.org/) would be ideal) - check with your local IT support team if you're not sure.
+3. Please install the required software before the workshop - follow the installation instructions on [this page](Pages/Installation-Instructions.md).
+4. Download the workshop data by clicking on the link to the ZIP archive at the top of this page.
+5. You will be assigned to a specific group, with whom you will be sitting - your group number will be displayed in the training room.
+6. **PLEASE CONTACT US BEFORE THE WORKSHOP IF YOU ENCOUNTER ANY DIFFICULTIES WITH ANY OF THE ABOVE.**
 
 # Program
-
-**Please note that all catering, as well as attendance of the social on the evening of the 18th, is covered by your registration fee.**
 
 <table style="width:100%">
 	<tbody>
 		<tr>
-			<th colspan=3>Monday, May 18th 2026</th>
+			<th colspan=3>Wednesday, June 3rd 2026</th>
 		</tr>
 		<tr>
-			<td>09:30 - 10:00</td>
-			<td colspan=2>Registration</td>
-		</tr>
-		<tr>
-			<td>10:00 - 11:30</td>
+			<td>09:30 - 11:00</td>
 			<td>Session 1</td>
 			<td><p>Introduction & Installations</p></td>
 		</tr>
@@ -49,7 +46,7 @@ In this workshop, we will bridge the gap between advanced microscopy data genera
 					<ul><li>Who are you and why are you here?</li></ul>
 					<li>Stefania Marcotti</li>
 					<ul><li>Creating Python environments</li></ul>
-					<li>Sara Salgueiro Torres</li>
+					<li>Dave Barry and Sara Salgueiro Torres</li>
 					<ul>
 						<li>Why manual analysis is a bad idea</li>
 						<li>Embracing uncertainty</li>
@@ -59,11 +56,11 @@ In this workshop, we will bridge the gap between advanced microscopy data genera
 			</td>
 		</tr>
 		<tr>
-			<td>11:30 - 11:45</td>
+			<td>11:00 - 11:15</td>
 			<td colspan=2>Coffee Break</td>
 		</tr>
 		<tr>
-			<td>11:45 - 13:15</td>
+			<td>11:15 - 12:45</td>
 			<td>Session 2</td>
 			<td><p>Image Pre-Processing, Segmentation & Analysis</p></td>
 		</tr>
@@ -71,185 +68,66 @@ In this workshop, we will bridge the gap between advanced microscopy data genera
 			<td></td>
 			<td colspan=3>
 				<ul>
-					<li>Sara Salgueiro Torres</li>
+					<li>Dave Barry and Sara Salgueiro Torres</li>
 					<ul>
 						<li>Basic segmentation using thresholding</li>
 						<li>Use of filtering to suppress noise</li>
 						<li>Obtaining numbers from images</li>
+						<li>Counting and quantifying morphology of objects</li>
+						<li>Quantifying fluorescence intensities</li>
 					</ul>
 				</ul>
 			</td>
 		</tr>
 		<tr>
-			<td>13:15 - 14:15</td>
+			<td>12:45 - 13:45</td>
 			<td colspan=2>Lunch</td>
 		</tr>
 		<tr>
-			<td>14:15 - 14:25</td>
-			<td colspan=2>Tech-bites</td>
-		</tr>
-		<tr>
-			<td></td>
-			<td colspan=3>
-			<ul>
-				<li>Joe Airey & Ainhoa Dafis‑Sagarmendi (Nikon)</li>
-				<ul>
-					<li>One software, many paths: classical, AI-based and open-source analysis in NIS-Elements</li>
-				</ul>
-			</ul>
-			</td>
-		</tr>
-		<tr>
-			<td>14:25 - 15:45</td> 
+			<td>13:45 - 15:15</td> 
 			<td>Session 3</td>
-			<td><p>Assembling Pipelines and Interpreting Results</p></td>
-		</tr>
-		<tr>
-			<td></td>
-			<td colspan=3>
-			<ul>
-				<li>Sara Salgueiro Torres & Dave Barry</li>
-				<ul>
-					<li>Counting and quantifying morphology of objects</li>
-					<li>Quantifying fluorescence intensities</li>
-				</ul>
-			</ul>
-			</td>
-		</tr>
-		<tr>
-			<td>15:45 - 16:00</td>
-			<td colspan=2>Coffee Break</td>
-		</tr>
-		<tr>
-			<td>16:00 - 17:30</td> 
-			<td>Session 4</td>
 			<td><p>Extending Analyses to Three Dimensions</p></td>
 		</tr>
 		<tr>
 			<td></td>
 			<td colspan=3>
 			<ul>
-				<li>Dave Barry</li>
+				<li>Stefania Marcotti and Sara Salgueiro Torres</li>
 				<ul>
-					<li>Adding more dimensions: Segmenting and analysing three-dimensional objects with MorphoLibJ</li>
+					<li>Counting and quantifying morphology of three-dimensional objects</li>
+					<li>Quantifying fluorescence intensities of three-dimensional objects</li>
 				</ul>
 			</ul>
 			</td>
 		</tr>
 		<tr>
-			<td>18:00</td>
-			<td colspan=2>Dinner: Tiny Rebel Cardiff, Westgate Street, Cardiff, CF10 1DD</td>
+			<td>15:15 - 15:30</td>
+			<td colspan=2>Coffee Break</td>
 		</tr>
 		<tr>
-			<th colspan=3>Tuesday, May 19th 2026</th>
+			<td>15:30 - 17:00</td> 
+			<td>Session 4</td>
+			<td><p>Getting Started with Automating Analysis</p></td>
 		</tr>
 		<tr>
-			<td>09:00 - 10:30</td>
+			<td></td>
+			<td colspan=3>
+			<ul>
+				<li>Stefania Marcotti and Sara Salgueiro Torres</li>
+				<ul>
+					<li>Fiji macro language</li>
+					<li>Automating batch analyses</li>
+				</ul>
+			</ul>
+			</td>
+		</tr>
+		<tr>
+			<th colspan=3>Thursday, June 4th 2026</th>
+		</tr>
+		<tr>
+			<td>09:30 - 11:00</td>
 			<td>Session 5</td>
-			<td><p>Using GitHub for Code Version Control</p></td>
-		</tr>
-		<tr>
-			<td></td>
-			<td colspan=3>
-				<ul>
-				<li>Stefania Marcotti</li>
-				<ul>
-					<li>Creating repositories</li>
-					<li>Tracking changes</li>
-					<li>Intro to coding: variables and arrays</li>
-				</ul>
-				</ul>
-			</td>
-		</tr>
-		<tr>
-			<td>10:30 - 10:45</td>
-			<td colspan=2>Coffee Break</td>
-		</tr>
-		<tr>
-			<td>10:45 - 12:00</td>
-			<td>Session 6</td>
-			<td><p>Using Jupyter Notebooks for Reproducible Analysis - Part 1</p></td>
-		</tr>
-		<tr>
-			<td></td>
-			<td colspan=3>
-				<ul>
-				<li>Stefania Marcotti</li>
-				<ul>
-					<li>Analysing light microscopy data</li>
-					<li>Quantify morphology of objects in a 2D image</li>
-				</ul>
-				</ul>
-			</td>
-		</tr>
-		<tr>
-			<td>12:00 - 13:00</td>
-			<td colspan=2>Lunch</td>
-		</tr>
-		<tr>
-			<td>13:00 - 14:30</td>
-			<td>Session 7</td>
-			<td><p>Using Jupyter Notebooks for Reproducible Analysis - Part 2</p></td>
-		</tr>
-		<tr>
-			<td></td>
-			<td colspan=3>
-				<ul>
-				<li>Tom Slater</li>
-				<ul>
-					<li>Analysing electron microscopy data</li>
-					<li>Quantify morphology of objects in a 2D image</li>
-				</ul>
-				</ul>
-			</td>
-		</tr>
-		<tr>
-			<td>14:30 - 14:45</td>
-			<td colspan=2>Coffee Break</td>
-		</tr>
-		<tr>
-			<td>14:45 - 16:15</td>
-			<td>Session 8</td>
-			<td><p>Introduction to Batch Processing with Jupyter Notebooks</p></td>
-		</tr>
-		<tr>
-			<td></td>
-			<td colspan=3>
-				<ul>
-				<li>Stefania Marcotti</li>
-				<ul>
-					<li>Practical application: analyse all the images in a dataset</li>
-				</ul>
-				</ul>
-			</td>
-		</tr>
-		<tr>
-			<td>16:15 - 17:45</td>
-			<td>Session 9</td>
-			<td><p>Extending Analyses to Three Dimensions in Python</p></td>
-		</tr>
-		<tr>
-			<td></td>
-			<td colspan=3>
-				<ul>
-				<li>Tom Slater</li>
-				<ul>
-					<li>Quantify morphology of objects in a 3D image</li>
-				</ul>
-				</ul>
-			</td>
-		</tr>
-		<tr>
-			<td>18:00</td>
-			<td colspan=2><a href="https://www.rms.org.uk/rms-event-calendar/welsh-microscopical-society-drinks-reception.html">Welsh Microscopical Society drinks reception</a>, Aberdare Hall, Cardiff, CF10 3UP</td>
-		</tr>
-		<tr>
-			<th colspan=3>Wednesday, May 20th 2026</th>
-		</tr>
-		<tr>
-			<td>09:00 - 10:30</td>
-			<td>Session 10</td>
-			<td><p>Using Napari for Image Visualisation</p></td>
+			<td><p>Napari for Image Visualisation</p></td>
 		</tr>
 		<tr>
 			<td></td>
@@ -257,19 +135,82 @@ In this workshop, we will bridge the gap between advanced microscopy data genera
 				<ul>
 				<li>Martin Jones</li>
 				<ul>
-					<li>Introduction to napari interface</li>
-					<li>Integrating napari into Jupyter notebooks</li>
+					<li>Napari GUI and plugins</li>
+					<li>Visualising complex image datasets using napari</li>
 				</ul>
 				</ul>
 			</td>
 		</tr>
 		<tr>
-			<td>10:30 - 10:45</td>
+			<td>11:00 - 11:15</td>
 			<td colspan=2>Coffee Break</td>
 		</tr>
 		<tr>
-			<td>10:45 - 12:15</td>
-			<td>Session 11</td>
+			<td>11:15 - 12:45</td>
+			<td>Session 6</td>
+			<td><p>Improving Reproducibility</p></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td colspan=3>
+				<ul>
+				<li>Stefania Marcotti</li>
+				<ul>
+					<li>Version control using GitHub</li>
+					<li>Data repositories</li>
+					<li>Introduction to Jupyter notebooks</li>
+					<li>Scripting foundational concepts</li>
+				</ul>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td>12:45 - 13:45</td>
+			<td colspan=2>Lunch</td>
+		</tr>
+		<tr>
+			<td>13:45 - 15:15</td>
+			<td>Session 7</td>
+			<td><p>Using Jupyter Notebooks for Reproducible Analysis</p></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td colspan=3>
+				<ul>
+				<li>Deniz Bekat</li>
+				<ul>
+					<li>Quantifying morphology of objects in a 2D image</li>
+				</ul>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td>15:15 - 15:30</td>
+			<td colspan=2>Coffee Break</td>
+		</tr>
+		<tr>
+			<td>15:30 - 17:00</td>
+			<td>Session 8</td>
+			<td><p>Introduction to Batch Processing with Jupyter Notebooks</p></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td colspan=3>
+				<ul>
+				<li>Deniz Bekat & Stefania Marcotti</li>
+				<ul>
+					<li>Practical application: analysing all the images in a folder</li>
+					<li>Integrating napari in a Jupyter notebook</li>
+				</ul>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<th colspan=3>Friday, June 5th 2026</th>
+		</tr>
+		<tr>
+			<td>09:30 - 11:00</td>
+			<td>Session 9</td>
 			<td><p>Introduction to Machine Learning for Image Analysis - Part 1</p></td>
 		</tr>
 		<tr>
@@ -278,85 +219,72 @@ In this workshop, we will bridge the gap between advanced microscopy data genera
 				<ul>
 				<li>Dave Barry</li>
 				<ul>
-					<li>What is machine learning?</li>
-					<li>"Painting" to train a machine learning model</li>
-					<li>Example software tools for light microscopy data</li>
+					<li>Traditional vs. machine learning approaches</li>
+					<li>Considerations and common pitfalls</li>
+					<li>Available open-source tools</li>
 				</ul>
 				</ul>
 			</td>
 		</tr>
 		<tr>
-			<td>12:15 - 13:15</td>
-			<td colspan=2>Lunch</td>
+			<td>11:00 - 11:15</td>
+			<td colspan=2>Coffee Break</td>
 		</tr>
 		<tr>
-			<td>13:15 - 14:45</td>
-			<td>Session 12</td>
+			<td>11:15 - 12:45</td>
+			<td>Session 10</td>
 			<td><p>Introduction to Machine Learning for Image Analysis - Part 2</p></td>
 		</tr>
 		<tr>
 			<td></td>
 			<td colspan=3>
 				<ul>
-				<li>Martin Jones and Tom Slater</li>
+				<li>Dave Barry</li>
 				<ul>
-					<li>Example software tools for electron microscopy data</li>
-					<li>Working with multimodal datasets</li>
+					<li>Practical application: using machine learning for segmentation</li>
 				</ul>
 				</ul>
 			</td>
 		</tr>
 		<tr>
-			<td>14:45 - 15:00</td>
-			<td colspan=2>Coffee Break</td>
+			<td>12:45 - 13:45</td>
+			<td colspan=2>Lunch</td>
 		</tr>
 		<tr>
-			<td>15:00 - 15:30</td>
-			<td>Session 13</td>
-			<td><p>Wrap up</p></td>
+			<td>13:45 - 15:15</td>
+			<td>Session 11</td>
+			<td><p>Q&A and wrap-up</p></td>
 		</tr>
 	</tbody>
 </table>
 
 # Venue
 
-The workshop will take place in the Translational Research Hub (TRH), School of Chemistry, Cardiff University, Maindy Road, Cardiff, CF24 4HQ:
-
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d583.4517914687144!2d-3.1862438503284167!3d51.493476178289484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486e1d75b00a4489%3A0xdf97c6f25f324407!2sTranslational%20Research%20Hub!5e0!3m2!1sen!2suk!4v1779083762049!5m2!1sen!2suk" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-# Slides
-
-You can find the slides [at this link](https://drive.google.com/drive/folders/1EqJCOZNDlDT0X1jG9JtIUVGqvaJu88jj?usp=share_link).
-
-# Additional Resources
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/RMS-DAIM/introduction-to-image-analysis/HEAD?urlpath=%2Fdoc%2Ftree%2FScripts%2FJupyter)
-
-* [Introduction to Scripting with FIJI](https://imagej.net/tutorials/batch-processing-with-ij-macro)
-* [Get Started with GitHub](https://docs.github.com/en/get-started/start-your-journey)
-* [Using ilastik in a Jupyter Notebook (minimal example)](https://github.com/ilastik/ilastik/blob/main/notebooks/pixel_classification_api/pixel-classification-api.ipynb)
+The workshop will take place in the Francis Crick Institute, London, UK.
 
 # Previous Workshops
 
 | Date | Venue | Content |
 | --- | --- | --- |
-| 8 / 9th April 2024 | King's College London | [Click here](Pages/KCL_2024.04.08.md)|
-| 24 / 25th April 2024 | Royal College of Surgeons in Ireland | [Click here](Pages/RCSI_2024.04.24.md)|
-| 21 / 22nd October 2024 | Francis Crick Institute | [Click here](Pages/Crick_2024.10.21.md)|
-| 8 / 9th April 2025 | University of Galway, Ireland | [Click here](https://github.com/FrancisCrickInstitute/introduction-to-image-analysis/blob/main/Pages/Galway_2025.04.08.md)|
-| 6 & 20th June 2025 | Francis Crick Institute | [Click here](https://github.com/FrancisCrickInstitute/introduction-to-image-analysis/blob/main/Pages/Crick_2025.06.06.md)|
-| 18 / 19th August 2025 | Francis Crick Institute | [Click here](https://github.com/FrancisCrickInstitute/introduction-to-image-analysis/blob/main/Pages/Crick_2025.08.18.md)|
-| 27 / 28th October 2025 | Francis Crick Institute | [Click here](https://github.com/FrancisCrickInstitute/introduction-to-image-analysis/blob/main/Pages/Crick_2025.10.27.md)|
+| 8 / 9th April 2024 | King's College London | [Click here](./Pages/KCL_2024.04.08.md)|
+| 24 / 25th April 2024 | Royal College of Surgeons in Ireland | [Click here](./Pages/RCSI_2024.04.24.md)|
+| 21 / 22nd October 2024 | Francis Crick Institute | [Click here](./Pages/Crick_2024.10.21.md)|
+| 8 / 9th April 2025 | University of Galway, Ireland | [Click here](./Pages/Galway_2025.04.08.md)|
+| 6 & 20th June 2025 | Francis Crick Institute | [Click here](./Pages/Crick_2025.06.06.md)|
+| 18 / 19th August 2025 | Francis Crick Institute | [Click here](./Pages/Crick_2025.08.18.md)|
+| 27 / 28th October 2025 | Francis Crick Institute | [Click here](./Pages/Crick_2025.10.27.md)|
 
 # FAQ
 
-1. **Do I need any prior knowledge of image analysis, FIJI or napari to attend?**
+1. **Do I need any prior knowledge of image analysis, FIJI or python to attend?**
 
     No, this workshop is aimed at complete beginners, but a basic understanding of image acquisition would be beneficial.
 
 2. **Do I need to have any experience of coding?**
 
-    While some basic knowledge would be helpful, it's not essential and even if you have no knowledge of python, Jupyter notebooks or FIJI scripts/macros, you should still apply.
+    While some basic knowledge would be helpful, it's not essential and even if you have no knowledge of python, Jupyter notebooks or FIJI scripts/macros, you should still register.
 
 <p align="center">
-	<img width="32%" src="./Resources/RMS_Logo.jpg" alt="RMS Logo"> <img width="10%" src="./Resources/CRICK_Logo.png" alt="Crick Logo"> <img width="14%" src="./Resources/Cardiff_Logo.png" alt="Cardiff University Logo"> <img width="10%" src="./Resources/Nikon_Logo.png" alt="Nikon Logo">
+	<img width="10%" src="./Resources/CRICK_Logo.png" alt="Crick Logo">
 </p>
+
