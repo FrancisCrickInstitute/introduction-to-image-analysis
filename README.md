@@ -90,7 +90,7 @@ This workshop is open to internal attendees only. [Registration is currently ope
 			<td></td>
 			<td colspan=3>
 			<ul>
-				<li>Stefania Marcotti and Sara Salgueiro Torres</li>
+				<li>Dave Barry and Sara Salgueiro Torres</li>
 				<ul>
 					<li>Counting and quantifying morphology of objects</li>
 					<li>Quantifying fluorescence intensities</li>
