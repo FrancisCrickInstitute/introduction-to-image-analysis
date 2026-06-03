@@ -255,6 +255,10 @@ This workshop is open to internal attendees only. [Registration is currently ope
 	</tbody>
 </table>
 
+# Slides
+
+You can find the slides for the workshop [in this folder](https://drive.google.com/drive/folders/1mP27Pyjjn6DFDwSHttELCiEiYHwh4-qg?usp=sharing).
+
 # Venue
 
 The workshop will take place in the Francis Crick Institute, London, UK.
