@@ -1,4 +1,7 @@
+[![Python 3.13](https://img.shields.io/badge/python-3.13-blue.svg)](https://www.python.org/downloads/release/python-31313/) ![Commit activity](https://img.shields.io/github/commit-activity/y/FrancisCrickInstitute/introduction-to-image-analysis?style=plastic) ![GitHub](https://img.shields.io/github/license/FrancisCrickInstitute/introduction-to-image-analysis?color=green&style=plastic)  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16993984.svg)](https://doi.org/10.5281/zenodo.16993984)
+
 ### 3rd - 5th June 2026, Francis Crick Institute
+
 
 <img width="100%" src="./Resources/RMS-DAIM_Workshop_Banner_Image.png" alt="Banner Image">
 
