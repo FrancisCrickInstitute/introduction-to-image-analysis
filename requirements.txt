@@ -1,6 +1,7 @@
 jupyterlab
 scikit-image
 matplotlib
+seaborn
 pandas
 numpy
 imagecodecs
