@@ -5,3 +5,5 @@ numpy
 imagecodecs
 openpyxl
 wget
+tensorflow
+stardist
