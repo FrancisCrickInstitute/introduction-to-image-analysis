@@ -1,6 +1,6 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/FrancisCrickInstitute/introduction-to-image-analysis/HEAD) [![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/downloads/release/python-31020/) ![Commit activity](https://img.shields.io/github/commit-activity/y/FrancisCrickInstitute/introduction-to-image-analysis?style=plastic) ![GitHub](https://img.shields.io/github/license/FrancisCrickInstitute/introduction-to-image-analysis?color=green&style=plastic)  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16993984.svg)](https://doi.org/10.5281/zenodo.16993984)
 
-### 3rd - 5th June 2026, Francis Crick Institute
+### 2nd - 4th November 2026, Francis Crick Institute
 
 
 <img width="100%" src="./Resources/RMS-DAIM_Workshop_Banner_Image.png" alt="Banner Image">
@@ -11,13 +11,14 @@ In this workshop, we will bridge the gap between advanced microscopy data genera
 
 # Registration
 
-This workshop is open to internal attendees only. [Registration is currently open on Workday](https://wd3.myworkday.com/crick/learning/offering/ae0d34f84e1c1001909af160a8860000?type=7c48590b5257100009485b7a25ae0068).
+Registration to this workshop has now closed.
 
 # Instructors
 * [Dave Barry, Francis Crick Institute](https://www.crick.ac.uk/research/find-a-researcher/david-barry)
-* [Deniz Bekat, Francis Crick Institute](https://www.crick.ac.uk/research/find-a-researcher/deniz-bekat)
 * [Martin Jones, Francis Crick Institute](https://www.crick.ac.uk/research/find-a-researcher/martin-jones)
+* [Rocco D'Antuono, Francis Crick Institute](https://www.crick.ac.uk/research/find-a-researcher/rocco-dantuono)
 * [Sara Salgueiro Torres, Francis Crick Institute](https://www.crick.ac.uk/research/find-a-researcher/sara-salgueiro-torres)
+* [Sonia Spitzer, Francis Crick Institute](https://www.crick.ac.uk/research/find-a-researcher/sonia-spitzer)
 * [Stefania Marcotti, Francis Crick Institute](https://www.linkedin.com/in/stefania-marcotti/)
 
 # Preparation
@@ -34,7 +35,7 @@ This workshop is open to internal attendees only. [Registration is currently ope
 <table style="width:100%">
 	<tbody>
 		<tr>
-			<th colspan=3>Wednesday, June 3rd 2026</th>
+			<th colspan=3>Monday, November 2nd 2026</th>
 		</tr>
 		<tr>
 			<td>09:30 - 11:00</td>
@@ -122,7 +123,11 @@ This workshop is open to internal attendees only. [Registration is currently ope
 			</td>
 		</tr>
 		<tr>
-			<th colspan=3>Thursday, June 4th 2026</th>
+			<td>17:00 - onwards</td> 
+			<td>Social drinks and nibbles</td>
+		</tr>
+		<tr>
+			<th colspan=3>Tuesday, November 3rd 2026</th>
 		</tr>
 		<tr>
 			<td>09:30 - 11:00</td>
@@ -206,7 +211,7 @@ This workshop is open to internal attendees only. [Registration is currently ope
 			</td>
 		</tr>
 		<tr>
-			<th colspan=3>Friday, June 5th 2026</th>
+			<th colspan=3>Wednesday, November 4th 2026</th>
 		</tr>
 		<tr>
 			<td>09:30 - 11:00</td>
@@ -277,6 +282,7 @@ The workshop will take place in the Francis Crick Institute, London, UK.
 | 6 & 20th June 2025 | Francis Crick Institute | [Click here](./Pages/Crick_2025.06.06.md)|
 | 18 / 19th August 2025 | Francis Crick Institute | [Click here](./Pages/Crick_2025.08.18.md)|
 | 27 / 28th October 2025 | Francis Crick Institute | [Click here](./Pages/Crick_2025.10.27.md)|
+| 3 / 5th November 2026 | Francis Crick Institute | [Click here](./Pages/Crick_2026.06.03.md)|
 
 # FAQ
 
