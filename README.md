@@ -50,7 +50,7 @@ Registration to this workshop has now closed.
 					<ul><li>Who are you and why are you here?</li></ul>
 					<li>Stefania Marcotti</li>
 					<ul><li>Creating Python environments</li></ul>
-					<li>Dave Barry and Sara Salgueiro Torres</li>
+					<li>Sara Salgueiro Torres</li>
 					<ul>
 						<li>Why manual analysis is a bad idea</li>
 						<li>Embracing uncertainty</li>
@@ -72,7 +72,7 @@ Registration to this workshop has now closed.
 			<td></td>
 			<td colspan=3>
 				<ul>
-					<li>Dave Barry and Sara Salgueiro Torres</li>
+					<li>Sara Salgueiro Torres</li>
 					<ul>
 						<li>Basic segmentation using thresholding</li>
 						<li>Use of filtering to suppress noise</li>
@@ -115,7 +115,7 @@ Registration to this workshop has now closed.
 			<td></td>
 			<td colspan=3>
 			<ul>
-				<li>Stefania Marcotti and Sara Salgueiro Torres</li>
+				<li>Dave Barry and Sara Salgueiro Torres</li>
 				<ul>
 					<li>Adding more dimensions: Segmenting and analysing three-dimensional objects with MorphoLibJ</li>
 				</ul>
@@ -124,7 +124,7 @@ Registration to this workshop has now closed.
 		</tr>
 		<tr>
 			<td>17:00 - onwards</td> 
-			<td>Social drinks and nibbles</td>
+			<td colspan=2>Social drinks and nibbles</td>
 		</tr>
 		<tr>
 			<th colspan=3>Tuesday, November 3rd 2026</th>
@@ -138,7 +138,7 @@ Registration to this workshop has now closed.
 			<td></td>
 			<td colspan=3>
 				<ul>
-				<li>Martin Jones</li>
+				<li>Martin Jones and Rocco D'Antuono</li>
 				<ul>
 					<li>Napari GUI and plugins</li>
 					<li>Visualising complex image datasets using napari</li>
@@ -182,7 +182,7 @@ Registration to this workshop has now closed.
 			<td></td>
 			<td colspan=3>
 				<ul>
-				<li>Deniz Bekat</li>
+				<li>Stefania Marcotti and Rocco D'Antuono</li>
 				<ul>
 					<li>Quantifying morphology of objects in a 2D image</li>
 				</ul>
@@ -202,7 +202,7 @@ Registration to this workshop has now closed.
 			<td></td>
 			<td colspan=3>
 				<ul>
-				<li>Deniz Bekat & Stefania Marcotti</li>
+				<li>Stefania Marcotti and Rocco D'Antuono</li>
 				<ul>
 					<li>Practical application: analysing all the images in a folder</li>
 					<li>Integrating napari in a Jupyter notebook</li>
@@ -216,7 +216,7 @@ Registration to this workshop has now closed.
 		<tr>
 			<td>09:30 - 11:00</td>
 			<td>Session 9</td>
-			<td><p>Introduction to Machine Learning for Image Analysis - Part 1</p></td>
+			<td><p>Introduction to Machine Learning for Image Analysis</p></td>
 		</tr>
 		<tr>
 			<td></td>
@@ -238,7 +238,7 @@ Registration to this workshop has now closed.
 		<tr>
 			<td>11:15 - 12:45</td>
 			<td>Session 10</td>
-			<td><p>Introduction to Machine Learning for Image Analysis - Part 2</p></td>
+			<td><p>Using Machine Learning for Image Analysis</p></td>
 		</tr>
 		<tr>
 			<td></td>
@@ -258,7 +258,7 @@ Registration to this workshop has now closed.
 		<tr>
 			<td>13:45 - 15:15</td>
 			<td>Session 11</td>
-			<td><p>Q&A and wrap-up</p></td>
+			<td><p>Additional topic on request, Q&A and wrap-up</p></td>
 		</tr>
 	</tbody>
 </table>
