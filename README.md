@@ -263,10 +263,6 @@ Registration to this workshop has now closed.
 	</tbody>
 </table>
 
-# Slides
-
-You can find the slides for the workshop [in this folder](https://drive.google.com/drive/folders/1mP27Pyjjn6DFDwSHttELCiEiYHwh4-qg?usp=sharing).
-
 # Venue
 
 The workshop will take place in the Francis Crick Institute, London, UK.
@@ -282,7 +278,7 @@ The workshop will take place in the Francis Crick Institute, London, UK.
 | 6 & 20th June 2025 | Francis Crick Institute | [Click here](./Pages/Crick_2025.06.06.md)|
 | 18 / 19th August 2025 | Francis Crick Institute | [Click here](./Pages/Crick_2025.08.18.md)|
 | 27 / 28th October 2025 | Francis Crick Institute | [Click here](./Pages/Crick_2025.10.27.md)|
-| 3 / 5th November 2026 | Francis Crick Institute | [Click here](./Pages/Crick_2026.06.03.md)|
+| 3 / 5th June 2026 | Francis Crick Institute | [Click here](./Pages/Crick_2026.06.03.md)|
 
 # FAQ
 
