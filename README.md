@@ -124,7 +124,7 @@ Registration to this workshop has now closed.
 		</tr>
 		<tr>
 			<td>17:00 - onwards</td> 
-			<td colspan=2>Social drinks and nibbles</td>
+			<td colspan=2>Social drinks and nibbles (Pizza Pilgrims King's Cross, 278 Pentonville Road, London N1 9JY)</td>
 		</tr>
 		<tr>
 			<th colspan=3>Tuesday, November 3rd 2026</th>
