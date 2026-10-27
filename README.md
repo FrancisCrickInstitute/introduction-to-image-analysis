@@ -115,7 +115,7 @@ Registration to this workshop has now closed.
 			<td></td>
 			<td colspan=3>
 			<ul>
-				<li>Dave Barry and Sara Salgueiro Torres</li>
+				<li>Dave Barry and Stefania Marcotti</li>
 				<ul>
 					<li>Adding more dimensions: Segmenting and analysing three-dimensional objects with MorphoLibJ</li>
 				</ul>
