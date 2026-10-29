@@ -1,24 +1,46 @@
 import numpy as np
-from scipy import ndimage as ndi
-from skimage import filters, morphology, segmentation, measure, feature
+import matplotlib.pyplot as plt
+from skimage import filters, measure, morphology, segmentation, exposure
+from IPython.display import display, Markdown
 
-# Smooth and subtract uneven background
-sm = filters.gaussian(img.astype(float), sigma=1)
-bg = filters.gaussian(sm, sigma=50)
-corr = sm - bg
+# --- 1. Select the nuclear channel (channel 1, Hoechst) ---
+# Make sure channels come first: (4, H, W). If they come last (H, W, 4), move them.
+im = np.moveaxis(img, -1, 0) if img.shape[-1] == 4 else img
+nuc = im[0]
 
-# Otsu threshold, then clean up the mask
-mask = corr > filters.threshold_otsu(corr)
-mask = morphology.remove_small_objects(mask, 30)
-mask = ndi.binary_fill_holes(mask)
+# --- 2. Pre-process: light Gaussian blur to suppress noise ---
+# preserve_range keeps the original grey-level units, so the threshold value is interpretable
+smooth = filters.gaussian(nuc, sigma=1, preserve_range=True)
 
-# Watershed split of touching nuclei using the distance transform
-dist = ndi.distance_transform_edt(mask)
-dist_s = filters.gaussian(dist, sigma=1)
-peaks = feature.peak_local_max(dist_s, min_distance=5, labels=measure.label(mask),
-                               exclude_border=False)
-markers = np.zeros(img.shape, dtype=int)
-markers[tuple(peaks.T)] = np.arange(1, len(peaks) + 1)
-labels = segmentation.watershed(-dist_s, markers, mask=mask)
+# --- 3. Simple global grey-level threshold (Otsu's method) ---
+thresh = filters.threshold_otsu(smooth)
+mask = smooth > thresh
 
-print("Nuclei count:", labels.max())
+# --- 4. Clean up the binary mask ---
+min_size = 30                                        # smallest object kept (pixels)
+mask = morphology.remove_small_objects(mask, min_size=min_size)  # remove debris/noise
+mask = morphology.remove_small_holes(mask, min_size)             # fill small holes in nuclei
+
+# --- 5. Label connected components: each one is counted as one cell ---
+labels = measure.label(mask)
+n_cells = labels.max()
+
+# --- 6. Overlay the segmentation outlines on the original (nuclear) image ---
+disp = exposure.rescale_intensity(nuc.astype(float), out_range=(0, 1))  # contrast stretch for display
+overlay = segmentation.mark_boundaries(disp, labels, color=(1, 0, 0))   # red outlines
+plt.figure(figsize=(8, 8))
+plt.imshow(overlay)
+plt.title(f"Nuclear channel with segmented cells (n = {n_cells})")
+plt.axis("off")
+plt.show()
+
+# --- 7. Results table in markdown format ---
+notes = (f"Gaussian blur (sigma=1) applied before thresholding; objects < {min_size} px removed; "
+         "no splitting of touching nuclei, so clusters count as one cell and the count may be underestimated; "
+         "edge-touching nuclei are included")
+table = (
+    "| Filename | Thresholding method | Thresholding value | Number of cells | Notes |\n"
+    "|---|---|---|---|---|\n"
+    f"| {filename} | Otsu (global) | {thresh:.2f} | {n_cells} | {notes} |"
+)
+display(Markdown(table))

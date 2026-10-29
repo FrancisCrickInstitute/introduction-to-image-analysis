@@ -67,15 +67,98 @@ def build_model_cells(models, scenario_name):
     return cells, code_cells
 
 
+COUNT_LABEL_FIRST = re.compile(
+    r"(?:count|cells?|nuclei|nucleus|objects?|n_cells)\b[^\d\n]{0,40}(\d+)",
+    re.IGNORECASE,
+)
+COUNT_NUMBER_FIRST = re.compile(
+    r"(\d+)[^\d\n]{0,10}(?:cells?|nuclei|nucleus|objects)\b",
+    re.IGNORECASE,
+)
+COUNT_TABLE_HINT = re.compile(r"cells|count|nuclei|objects|filename", re.IGNORECASE)
+
+
+def _plain_text(out):
+    data = out.get("data", {})
+    chunks = []
+    for key in ("text/plain", "text/markdown"):
+        text = data.get(key, "")
+        chunks.append("".join(text) if isinstance(text, list) else text)
+    return "\n".join(chunk for chunk in chunks if chunk)
+
+
+def _strip_dtype(text):
+    # np.int32(7) -> (7) so the count, not the dtype digits, is captured.
+    return re.sub(r"np\.(?:int|uint|float|bool)\d*", "", text)
+
+
+def parse_markdown_cell_count(text):
+    """Extract the 'Number of cells' value from a markdown table."""
+    lines = text.splitlines()
+    for i, line in enumerate(lines):
+        if "|" not in line:
+            continue
+        cols = [c.strip() for c in line.strip().strip("|").split("|")]
+        idx = next(
+            (
+                j
+                for j, c in enumerate(cols)
+                if "cell" in c.lower() or "count" in c.lower()
+            ),
+            None,
+        )
+        if idx is None:
+            continue
+        for data_line in lines[i + 1:]:
+            if "|" not in data_line:
+                continue
+            data_cols = [c.strip() for c in data_line.strip().strip("|").split("|")]
+            if len(data_cols) <= idx:
+                continue
+            if all(re.fullmatch(r"[-: ]*", c) for c in data_cols):
+                continue  # separator row
+            match = re.search(r"\d+", data_cols[idx])
+            if match:
+                return int(match.group())
+    return None
+
+
 def extract_count(outputs):
     for out in outputs:
         if out.get("output_type") == "error":
             return "error"
-    for out in outputs:
-        if out.get("output_type") == "stream" and out.get("name") == "stdout":
-            numbers = re.findall(r"\d+", out.get("text", ""))
-            if numbers:
-                return int(numbers[-1])
+
+    stdout = _strip_dtype(
+        "".join(
+            out.get("text", "")
+            for out in outputs
+            if out.get("output_type") == "stream" and out.get("name") == "stdout"
+        )
+    )
+    display = _strip_dtype(
+        "".join(
+            _plain_text(out)
+            for out in outputs
+            if out.get("output_type") in ("display_data", "execute_result")
+        )
+    )
+
+    for text in (stdout, display):
+        markdown_count = parse_markdown_cell_count(text)
+        if markdown_count is not None:
+            return markdown_count
+
+    for text in (stdout, display):
+        for pattern in (COUNT_LABEL_FIRST, COUNT_NUMBER_FIRST):
+            matches = pattern.findall(text)
+            if matches:
+                return int(matches[-1])
+
+    # Fallback for a printed/displayed table whose count sits in the last column.
+    if COUNT_TABLE_HINT.search(display):
+        numbers = re.findall(r"\d+", display)
+        if numbers:
+            return int(numbers[-1])
     return None
 
 

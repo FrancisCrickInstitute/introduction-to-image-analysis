@@ -1,24 +1,59 @@
 import numpy as np
-from scipy import ndimage as ndi
-from skimage import filters, morphology, segmentation, feature
+import matplotlib.pyplot as plt
+from skimage import filters, measure, morphology
+from skimage.segmentation import mark_boundaries
 
-# Smooth and threshold
-img_smooth = filters.gaussian(img, sigma=1.5)
-threshold = filters.threshold_otsu(img_smooth)
-mask = img_smooth > threshold
+# If filename is not already defined, set a fallback.
+try:
+    filename
+except NameError:
+    filename = "image.tif"
 
-# Clean up
+# --- Identify channel layout ---
+# Assume: channel 0 = nuclei, 1 = tubulin, 2 = actin, 3 = YAP/TAZ.
+# Handle both (C, H, W) and (H, W, C) array layouts.
+if img.ndim == 3 and img.shape[0] <= 4:
+    nuclear = img[0]
+    tubulin = img[1]
+    actin = img[2]
+else:
+    nuclear = img[..., 0]
+    tubulin = img[..., 1]
+    actin = img[..., 2]
+
+# --- Simple global grey-level thresholding using Otsu ---
+thresh = filters.threshold_otsu(nuclear)
+mask = nuclear > thresh
+
+# --- Clean up binary mask ---
 mask = morphology.remove_small_objects(mask, min_size=64)
 mask = morphology.remove_small_holes(mask, area_threshold=64)
 
-# Separate touching nuclei using distance transform + watershed
-distance = ndi.distance_transform_edt(mask)
-coords = feature.peak_local_max(distance, min_distance=10, labels=mask)
+# --- Count cells/nuclei as connected components ---
+labels = measure.label(mask, connectivity=2)
+n_cells = labels.max()
 
-markers = np.zeros(img.shape, dtype=np.int32)
-markers[tuple(coords.T)] = np.arange(1, len(coords) + 1)
+# --- Build RGB composite: nuclei=blue, tubulin=green, actin=red ---
+def normalize(ch):
+    ch = ch.astype(np.float32)
+    ch -= ch.min()
+    ch /= ch.max() + 1e-8
+    return ch
 
-labels = segmentation.watershed(-distance, markers, mask=mask)
+composite = np.stack([normalize(actin),
+                      normalize(tubulin),
+                      normalize(nuclear)], axis=-1)
 
-nuclei_count = labels.max()
-print(f"Number of nuclei: {nuclei_count}")
+# --- Overlay segmentation boundaries on the composite ---
+overlay = mark_boundaries(composite, labels, color=(1, 1, 0), mode='thick')
+
+plt.figure(figsize=(8, 8))
+plt.imshow(overlay)
+plt.title(f"Segmented cells: {n_cells}")
+plt.axis("off")
+plt.show()
+
+# --- Markdown table ---
+print("| Input filename | Thresholding method | Thresholding value | Number of cells | Notes |")
+print("| --- | --- | --- | --- | --- |")
+print(f"| {filename} | Otsu (global grey-level) | {thresh:.2f} | {n_cells} | Nuclear channel (ch 0); touching nuclei are not split; YAP/TAZ not used |")

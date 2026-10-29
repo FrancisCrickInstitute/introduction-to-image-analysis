@@ -1,1 +1,2 @@
-Write Python code to count the cells in my microscopy image.
+I have a 2D multichannel fluorescence microscopy image of some cells that I need to analyse. Write Python code to count
+the cells. The code will go into an existing Jupyter notebook that loads the image into a variable called `img`.
