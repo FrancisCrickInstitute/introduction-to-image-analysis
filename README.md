@@ -216,7 +216,7 @@ Registration to this workshop has now closed.
 		<tr>
 			<td>09:30 - 11:00</td>
 			<td>Session 9</td>
-			<td><p>Introduction to Machine Learning for Image Analysis</p></td>
+			<td><p>Introduction to Machine Learning for Image Analysis - Part 1</p></td>
 		</tr>
 		<tr>
 			<td></td>
@@ -227,6 +227,7 @@ Registration to this workshop has now closed.
 					<li>Traditional vs. machine learning approaches</li>
 					<li>Considerations and common pitfalls</li>
 					<li>Available open-source tools</li>
+					<li>Practical application: "Painting" to train a machine learning model</li>
 				</ul>
 				</ul>
 			</td>
@@ -238,7 +239,7 @@ Registration to this workshop has now closed.
 		<tr>
 			<td>11:15 - 12:45</td>
 			<td>Session 10</td>
-			<td><p>Using Machine Learning for Image Analysis</p></td>
+			<td><p>Introduction to Machine Learning for Image Analysis - Part 2</p></td>
 		</tr>
 		<tr>
 			<td></td>
@@ -246,7 +247,7 @@ Registration to this workshop has now closed.
 				<ul>
 				<li>Dave Barry</li>
 				<ul>
-					<li>Practical application: using machine learning for segmentation</li>
+					<li>Practical application: using deep learning for segmentation</li>
 				</ul>
 				</ul>
 			</td>
