@@ -1,0 +1,109 @@
+# Models are queried in the order listed. Every scenario uses every model.
+[[models]]
+label = "Claude Haiku 5-5"
+id = "claude-haiku-5-5"
+provider = "anthropic"
+model = "claude-haiku-5-5"
+api_key_env = "ANTHROPIC_API_KEY"
+
+[[models]]
+label = "Claude Sonnet 5-5"
+id = "claude-sonnet-5-5"
+provider = "anthropic"
+model = "claude-sonnet-5-5"
+api_key_env = "ANTHROPIC_API_KEY"
+
+[[models]]
+label = "Claude Opus 5-5"
+id = "claude-opus-5-5"
+provider = "anthropic"
+model = "claude-opus-5-5"
+api_key_env = "ANTHROPIC_API_KEY"
+
+[[models]]
+label = "Mistral Small 4"
+id = "mistral-small-2603"
+provider = "mistral"
+model = "mistral-small-2603"
+api_key_env = "MISTRAL_API_KEY"
+
+[[models]]
+label = "Mistral Large 4"
+id = "mistral-large-4"
+provider = "mistral"
+model = "mistral-large-4"
+api_key_env = "MISTRAL_API_KEY"
+
+[[models]]
+label = "Mistral Codestral"
+id = "codestral-2508"
+provider = "mistral"
+model = "codestral-2508"
+api_key_env = "MISTRAL_API_KEY"
+
+[[models]]
+label = "Deepseek Flash"
+id = "deepseek-flash"
+provider = "deepseek"
+model = "deepseek-flash"
+api_key_env = "DEEPSEEK_API_KEY"
+
+[[models]]
+label = "Deepseek V4 Pro"
+id = "deepseek-v4-pro"
+provider = "deepseek"
+model = "deepseek-v4-pro"
+api_key_env = "DEEPSEEK_API_KEY"
+
+# One notebook is generated per scenario.
+[[scenarios]]
+name = "vague"
+title = "Counting objects with LLMs: a vague prompt"
+prompt_file = "prompts/vague.md"
+output = "counting_objects_with_LLMs_vague.ipynb"
+intro = """
+This notebook shows what happens when an LLM is asked to analyse an image with
+a vague, under-specified prompt.
+
+Each model is given the same prompt and must guess the answer to several
+questions: what is in the image, whether objects are bright-on-dark or
+dark-on-bright, whether they touch, and so on. Different models make different
+guesses, so they produce different code, make different assumptions, and
+sometimes write code that does not even run.
+"""
+conclusion = """
+A vague prompt produces uncontrolled variance. The models are not necessarily
+wrong, but they are guessing, so the numbers they return cannot be trusted or
+compared.
+
+If you want reliable, consistent code, describe your data and your task
+precisely. The next notebook shows what happens when you do.
+"""
+
+[[scenarios]]
+name = "specific"
+title = "Counting objects with LLMs: a well-specified prompt"
+prompt_file = "prompts/specific.md"
+output = "counting_objects_with_LLMs_specific.ipynb"
+intro = """
+This notebook shows what happens when an LLM is given a well-specified prompt
+that describes the image data in detail.
+
+The prompt states the image dimensions and type, what it shows (cell nuclei, a
+Hoechst stain), how the objects appear (bright, round, on a dark background,
+some touching), and the name of the variable holding the data. Because the
+models no longer need to guess, they converge on essentially the same, correct
+workflow. Note that the image itself was never sent to the models: a precise
+textual description was enough.
+"""
+conclusion = """
+A well-specified prompt removes the guesswork, and the models converge on the
+same approach and the same answer. The image itself did not need to be sent,
+because a precise description of the data was sufficient.
+
+Two things still hold. First, there is no single correct count: the answer
+depends on how you define an object, and two careful human annotators will
+usually disagree too. Second, the models still perform no quality control of
+their own, so domain expertise still matters. But a good prompt gets you much
+further.
+"""
