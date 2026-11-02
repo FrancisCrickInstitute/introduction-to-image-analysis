@@ -268,6 +268,10 @@ Registration to this workshop has now closed.
 
 The workshop will take place in the Francis Crick Institute, London, UK.
 
+# Slides
+
+You can find the slides for the course at [this link](https://drive.google.com/drive/folders/14DWvhc5T81QfI80zXU7k2iMkLje_Pw3X?usp=sharing).
+
 # Previous Workshops
 
 | Date | Venue | Content |
