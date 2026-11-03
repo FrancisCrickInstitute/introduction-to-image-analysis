@@ -272,6 +272,11 @@ The workshop will take place in the Francis Crick Institute, London, UK.
 
 You can find the slides for the course at [this link](https://drive.google.com/drive/folders/14DWvhc5T81QfI80zXU7k2iMkLje_Pw3X?usp=sharing).
 
+# Additional material
+
+* Pete Bankhead’s image analysis book [link](https://bioimagebook.github.io/)
+* Tutorial for Fiji macros [link](https://imagej.net/tutorials/batch-processing-with-ij-macro)
+
 # Previous Workshops
 
 | Date | Venue | Content |
