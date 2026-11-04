@@ -18,7 +18,6 @@ Registration to this workshop has now closed.
 * [Martin Jones, Francis Crick Institute](https://www.crick.ac.uk/research/find-a-researcher/martin-jones)
 * [Rocco D'Antuono, Francis Crick Institute](https://www.crick.ac.uk/research/find-a-researcher/rocco-dantuono)
 * [Sara Salgueiro Torres, Francis Crick Institute](https://www.crick.ac.uk/research/find-a-researcher/sara-salgueiro-torres)
-* [Sonia Spitzer, Francis Crick Institute](https://www.crick.ac.uk/research/find-a-researcher/sonia-spitzer)
 * [Stefania Marcotti, Francis Crick Institute](https://www.linkedin.com/in/stefania-marcotti/)
 
 # Preparation
@@ -274,12 +273,12 @@ You can find the slides for the course at [this link](https://drive.google.com/d
 
 # Additional material
 
-* Pete Bankhead’s image analysis book [Click here](https://bioimagebook.github.io/)
-* Tutorial for Fiji macros [Click here](https://imagej.net/tutorials/batch-processing-with-ij-macro)
-* CCP-volumeEM YouTube channel [Click here](https://www.youtube.com/@CCP-volumeEM)
-* QuPath from zero to hero YouTube playlist [Click here](https://youtu.be/MBrAVUsUdio?si=eTd9eFFMrkSOdlxg)
-* Watershed in Fiji [Click here](https://imagej.net/plugins/marker-controlled-watershed)
-* Watershed in ilastik (Hysteresis Thresholding) [Click here](https://www.ilastik.org/documentation/objects/objects)
+* [Click here](https://bioimagebook.github.io/) Pete Bankhead’s image analysis book 
+* [Click here](https://imagej.net/tutorials/batch-processing-with-ij-macro) Tutorial for Fiji macros 
+* [Click here](https://www.youtube.com/@CCP-volumeEM) CCP-volumeEM YouTube channel 
+* [Click here](https://youtu.be/MBrAVUsUdio?si=eTd9eFFMrkSOdlxg) QuPath from zero to hero YouTube playlist 
+* [Click here](https://imagej.net/plugins/marker-controlled-watershed) Watershed in Fiji 
+* [Click here](https://www.ilastik.org/documentation/objects/objects) Watershed in ilastik (Hysteresis Thresholding) 
 
 # Previous Workshops
 
