@@ -59,6 +59,58 @@ conda update -n base conda
 
 ![ilastik Landing](./../assets/ilastik_landing.png)
 
+## Installing pixi and setting up the StarDist environment
+
+The [counting objects with StarDist](./../Scripts/Jupyter/counting_objects_with_stardist.ipynb) notebook needs its own Python environment, which we manage with [pixi](https://pixi.sh). pixi reads the `pixi.toml` file included in the workshop download and installs exactly the right versions of everything (StarDist, TensorFlow, JupyterLab, etc.) for you.
+
+### 1. Install pixi
+
+* **Windows:** open PowerShell and run:
+  ```
+  powershell -ExecutionPolicy ByPass -c "irm -useb https://pixi.sh/install.ps1 | iex"
+  ```
+* **Mac:** open the Terminal and run:
+  ```
+  curl -fsSL https://pixi.sh/install.sh | sh
+  ```
+
+Then **close and reopen** your PowerShell/Terminal window and check that the installation worked by typing:
+```
+pixi --version
+```
+If pixi has been installed correctly, a version number appears.
+
+### 2. Set up the environment
+
+1. If you haven't already, download and unzip the workshop data (see [Download Demo Data](#download-demo-data) above).
+2. In PowerShell/Terminal, navigate to the unzipped folder - this is the folder that contains the `pixi.toml` file. For example:
+   ```
+   cd <path to the unzipped folder>
+   ```
+3. Install the environment:
+   ```
+   pixi install
+   ```
+   This downloads several hundred MB, so it may take a few minutes - please do this **before** the workshop, on a good internet connection.
+
+### 3. Check that everything works
+
+Still in the same folder, run:
+```
+pixi run python -c "from stardist.models import StarDist2D; StarDist2D.from_pretrained('2D_versatile_fluo')"
+```
+This also downloads the pre-trained StarDist model used in the notebook. Some warnings about GPUs or CUDA may be printed - these are fine and can be ignored. If it finishes without an `Error`, you're all set.
+
+### 4. Launching the notebook (during the workshop)
+
+From the folder containing `pixi.toml`, run:
+```
+pixi run jupyter lab
+```
+JupyterLab will open in your web browser. Navigate to `Scripts/Jupyter/` and open `counting_objects_with_stardist.ipynb`.
+
+> **Note:** Always launch JupyterLab with `pixi run` from this folder - do **not** use your conda environment for this notebook.
+
 ## Create a GitHub account (if you don't already have one)
 
 1. Go to [https://github.com](https://github.com) and follow the “Sign up” link at the top-right of the window.
