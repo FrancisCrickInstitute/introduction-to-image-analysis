@@ -274,8 +274,10 @@ You can find the slides for the course at [this link](https://drive.google.com/d
 
 # Additional material
 
-* Pete Bankhead’s image analysis book [link](https://bioimagebook.github.io/)
-* Tutorial for Fiji macros [link](https://imagej.net/tutorials/batch-processing-with-ij-macro)
+* Pete Bankhead’s image analysis book [Click here](https://bioimagebook.github.io/)
+* Tutorial for Fiji macros [Click here](https://imagej.net/tutorials/batch-processing-with-ij-macro)
+* CCP-volumeEM YouTube channel [Click here](https://www.youtube.com/@CCP-volumeEM)
+* QuPath from zero to hero YouTube playlist [Click here](https://youtu.be/MBrAVUsUdio?si=eTd9eFFMrkSOdlxg)
 
 # Previous Workshops
 
