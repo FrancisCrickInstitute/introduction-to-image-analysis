@@ -278,6 +278,8 @@ You can find the slides for the course at [this link](https://drive.google.com/d
 * Tutorial for Fiji macros [Click here](https://imagej.net/tutorials/batch-processing-with-ij-macro)
 * CCP-volumeEM YouTube channel [Click here](https://www.youtube.com/@CCP-volumeEM)
 * QuPath from zero to hero YouTube playlist [Click here](https://youtu.be/MBrAVUsUdio?si=eTd9eFFMrkSOdlxg)
+* Watershed in Fiji [Click here](https://imagej.net/plugins/marker-controlled-watershed)
+* Watershed in ilastik (Hysteresis Thresholding) [Click here](https://www.ilastik.org/documentation/objects/objects)
 
 # Previous Workshops
 
